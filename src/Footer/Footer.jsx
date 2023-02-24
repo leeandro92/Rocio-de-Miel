@@ -13,7 +13,7 @@ const Footer = () => {
               </a>
             </div> 
             <div className='igContenedor'>
-              <a href="https://wa.me/1133392396?text=¡Estoy+interesado!" className='whatsap'> 
+              <a href="https://api.whatsapp.com/send?phone=1565141191" className='whatsap'> 
                 <i className="bi bi-whatsapp"></i>
               </a>     
             </div>   
