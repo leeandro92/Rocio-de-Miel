@@ -1,13 +1,212 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Shantell Sans', cursive;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .header {
+      width: 100%;
+      height:100%;
+    }
+  .footer{
+    height: 140px;
+    width: 100%;
+    background-color: rgba(197, 107, 210, 0.587);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  .igContenedor{
+    height: 25px;
+    width: 25px;
+  }
+main{
+  background-image: url("../public/67663.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: contain;
+  height: 100%;
+}
+.titulo{
+  text-decoration: none;
+}
+.nav-tortas{
+  font-size: 18px;
+}
+.h1{
+  font-size: 30px;
+  color: pink;
+  letter-spacing: 3px;
+}
+  .itemListContainer{
+    height: 2500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .h3ListContainer{
+    letter-spacing: 9px;
+    font-weight:bolder ;
+    height: 60px; 
+    display: flex;  
+    justify-content: center;   
+    align-items: center; 
+    transform: translateY(-20px);
+  }
+.items{
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-color:  rgb(214, 194, 194);
+     box-shadow : 4px 4px 5px 6px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .div-Iteem{
+    height: 340px;
+    width: 100%;
+  }
+.bi-instagram{
+font-size: 20px;
+color: rgba(255, 255, 255, 0.624);
+background-Color:radial-gradient(circle at 30% 107%, #fdf497 3%, #fdf497 35%, #fd5949 55%, #d6249f 65%, #285AEB 80%);
+}
+.bi-facebook{
+  font-size: 23px;
+color: rgba(255, 255, 255, 0.624);
+
+}
+.bi-whatsapp{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.624);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.detailws{
+  margin-left:15px ;
 }
+
+  .contenedorImg{
+    width: 100%;
+    height: 300px;
+  }
+  .igContenedor{
+    background-color: rgba(223, 91, 238, 0.496);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    align-items: center;
+
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .itemDetailContainer{
+    height: 1200px;
+    width: 100%;
+    display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+  }
+  .itemDetail{
+    background-color: rgba(251, 154, 154, 0.847);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    justify-content: space-evenly;
+    margin: 10px; 
+  }
+  .precio{
+    font-size: 35px;
+    font-weight: bolder; 
+  }
+  .wsap{
+    background-color: green;
+    border-radius: 100px; 
+  }
+  .detailWs{
+    background-color: green; background-color: green;
+  }
+  .tituloProd{
+    text-align: center;
+    font-size: 30px;
+  }
+  .fotoDetailContenedor{
+    height: 400px;
+    width: 90%;
+  }
+  .fotoDetail{
+    height: 100%;
+    width: 100%;
+  }
+  .animate__animated.animate__backInLeft{
+    animation-duration: 3s;
+
+  }
+
+/*------------------------------------------------------------------------Home--------------------------------------------------*/
+  .home{
+   height: 2000px;
+  }
+  img{
+    height: 100%;
+    width: 100%; 
+  }
+  .fotoCarousel{
+    height: 100vh;
+    width: 100%
+  }
+ .div-seccion2{
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction:column;
+   height:400px;
+   padding: 15px;
+  background-color: rgba(255, 192, 203, 0.638)
+ }
+ .animate__animated.animate__pulse{
+  animation-duration: 2s;
+  animation-delay:1s;
+  animation-iteration-count: infinite;
+ }
+ .linkSeccion2Prod{
+  background-color: rgba(11, 11, 16, 0.786);
+  border-radius: 100px;
+  width: 190px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color:rgb(239, 227, 227);
+  transform: translateX(90px);
+  position: relative;
+  left: 100px ;
+
+ }
+.h4Prod{
+  text-align: center;
+  padding: 11px;
+  font-weight: 400px;
+ }
+.seccion2{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+     
+
+
+
+
+
+}
+
