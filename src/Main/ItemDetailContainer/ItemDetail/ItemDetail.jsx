@@ -13,7 +13,7 @@ const ItemDetail = ({item}) => {
       <div style={{display:"flex",}}> 
         <h4>Encargos unicamente por</h4>
           <div className='igContenedor detailWs' style={{transform:"translate(20px,-5px)"}}>
-            <a href="https://wa.me/1133392396?text=¡Estoy+interesado!" className='whatsap'> 
+            <a href="https://api.whatsapp.com/send?phone=5491133392396" className='whatsap'> 
               <i className="bi bi-whatsapp wsap "></i>
             </a>     
           </div>        
