@@ -5,7 +5,7 @@ export const products =[
     price: 900,
     category: "tortas",
     img:"https://d320djwtwnl5uo.cloudfront.net/recetas/cover_ipk5fgqbdh_eg-pf-platos-turron-de-avena-hi-03.jpg",
-    info:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, labore perspiciatis distinctio ut a, cum voluptas ad sint mollitia hic, alias debitis officia ipsam dicta optio excepturi explicabo. Quod, asperiores. "
+    info:"Turrón de chocolate derretido y avena en capas de galletitas secas, un clásico de la infancia de muchos argentinos. "
 },
 
 {
@@ -14,7 +14,7 @@ export const products =[
     price: 900,
     category: "tortas",
     img:"https://recetatorta.com/wp-content/uploads/2020/10/Torta-de-manzana-invertida.jpg",
-    info:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, labore perspiciatis distinctio ut a, cum voluptas ad sint mollitia hic, alias debitis officia ipsam dicta optio excepturi explicabo. Quod, asperiores. "
+    info:"Una deliciosa y rica tarta tradicional de manzana, que se prepara de un modo sencillo y rápido, ideal para ofrecer como postre o merienda."
 },
 {
     id:3,
@@ -22,7 +22,7 @@ export const products =[
     price: 900,
     category: "tortas",
     img:"https://www.bettycrocker.lat/wp-content/uploads/2020/12/BClatam-recipe-chocoflan.png",
-    info:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, labore perspiciatis distinctio ut a, cum voluptas ad sint mollitia hic, alias debitis officia ipsam dicta optio excepturi explicabo. Quod, asperiores. "
+    info:"Postre exquisito y con presentación agradable,consistente en un pastel de dos capas: una de flan y otra de bizcocho de chocolate "
 },
 {
     id:4,
@@ -30,15 +30,15 @@ export const products =[
     price: 900,
     category: "tortas",
     img:"https://img-global.cpcdn.com/recipes/3ebae289ff6bf5af/1200x630cq70/photo.jpg",
-    info:" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, labore perspiciatis distinctio ut a, cum voluptas ad sint mollitia hic, alias debitis officia ipsam dicta optio excepturi explicabo. Quod, asperiores."
+    info:"Tarta formada por una base de masa quebrada u hojaldre que se rellena con crema de limón."
 },
 {
     id:5,
-    title:"torta de ricota",
+    title:"Brownie",
     price: 900,
     category: "tortas",
-    img:"https://cloudfront-us-east-1.images.arcpublishing.com/radiomitre/YCE6RIGIT5GWXE2UOTGDOZM4GI.jpg",
-    info:" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, labore perspiciatis distinctio ut a, cum voluptas ad sint mollitia hic, alias debitis officia ipsam dicta optio excepturi explicabo. Quod, asperiores."
+    img:"https://www.clarin.com/img/2022/05/24/KEaLLgGNb_1200x630__1.jpg",
+    info:"Pastelillos dulces, pequeños, que tienen una cubierta de chocolate y pueden incluir en su interior trocitos de nuez, chocolate y una variedad de ingredientes."
 },
 {
     id:6,
@@ -51,8 +51,16 @@ export const products =[
                             🍋 Limon
                             🍫 Chocolate
                             🌰 Nueces
-                            🍇 Pasas de uva
-                             Arandanos`
-                             
+                            🍇 Pasas de uva,
+                             Arandanos.`                     
+},
+{
+    id:7,
+    title:"Torta de frutas",
+    price: 900,
+    category: "tortas",
+    img:"https://placeralplato.com/files/2015/05/Receta-de-tarta-de-frutas-640x480.jpg?width=1200&enable=upscale",
+    info:"Pastel con fruta confitada o fresca troceada, frutos secos y especias, y opcionalmente mojado en licor."
+
 }
 ]

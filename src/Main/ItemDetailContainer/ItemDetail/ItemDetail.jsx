@@ -12,7 +12,7 @@ const ItemDetail = ({item}) => {
       <h4 className='precio'> $ {item.price}</h4>
       <div style={{display:"flex",}}> 
         <h4>Encargos unicamente por</h4>
-          <div className='igContenedor detailWs' style={{transform:"translate(20px,-5px)"}}>
+          <div className='igContenedor detailWs' style={{transform:"translate(-10px,-5px)"}}>
             <a href="https://api.whatsapp.com/send?phone=5491133392396" className='whatsap'> 
               <i className="bi bi-whatsapp wsap "></i>
             </a>     
@@ -21,12 +21,8 @@ const ItemDetail = ({item}) => {
       <Link to="/productos" style={{textDecoration:"none",color:"black",}}><h3 style={{fontWeight:"bolder"}}>Volver a Productos</h3></Link> 
     </div>
     <div className='detailInfo'>
-        <h5>{item.info}</h5>
-         
-       
-    </div>
-    
-    
+        <h5 style={{padding:"30px",textAlign:"center"}}>{item.info}</h5>   
+    </div>  
     </>
   )
 }

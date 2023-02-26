@@ -11,7 +11,7 @@
       height:100%;
     }
   .footer{
-    height: 140px;
+    height: 110px;
     width: 100%;
     background-color: rgba(197, 107, 210, 0.587);
     display: flex;
@@ -22,6 +22,8 @@
   .igContenedor{
     height: 25px;
     width: 25px;
+    margin-left:20px;
+
   }
 main{
   background-image: url("../public/67663.jpg");
@@ -46,6 +48,9 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+  background-color: rgba(255, 192, 203, 0.638)
+
   }
   .h3ListContainer{
     letter-spacing: 9px;
@@ -65,9 +70,11 @@ main{
      box-shadow : 4px 4px 5px 6px;
     justify-content: space-around;
     align-items: center;
+    height: 300px;
+    width: 86%;
   }
   .div-Iteem{
-    height: 340px;
+    height: 300px;
     width: 100%;
   }
 .bi-instagram{
@@ -108,14 +115,17 @@ color: rgba(255, 255, 255, 0.624);
     height: 100%;
   }
   .itemDetailContainer{
-    height: 1200px;
+    height: 1050px;
     width: 100%;
     display: flex;
    justify-content: space-evenly;
    flex-direction: column;
+  background-color: rgba(255, 192, 203, 0.638)
+
+   
   }
   .itemDetail{
-    background-color: rgba(251, 154, 154, 0.847);
+    background-color: rgba(251, 154, 154, 0.569);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,7 +163,8 @@ color: rgba(255, 255, 255, 0.624);
 
 /*------------------------------------------------------------------------Home--------------------------------------------------*/
   .home{
-   height: 2000px;
+   height: 1670px;
+   background-color: rgba(255, 192, 203, 0.638)
   }
   img{
     height: 100%;
@@ -176,6 +187,7 @@ color: rgba(255, 255, 255, 0.624);
   animation-delay:1s;
   animation-iteration-count: infinite;
  }
+ 
  .linkSeccion2Prod{
   background-color: rgba(11, 11, 16, 0.786);
   border-radius: 100px;
@@ -189,7 +201,6 @@ color: rgba(255, 255, 255, 0.624);
   transform: translateX(90px);
   position: relative;
   left: 100px ;
-
  }
 .h4Prod{
   text-align: center;
